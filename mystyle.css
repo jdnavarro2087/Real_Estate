@@ -1,0 +1,57 @@
+/* LINK CSS! */
+
+/*Inclusive*/ /*eliminating space in web page*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Header*/
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+.site-init{
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    height: 40vh;
+    color: white;
+}
+.header-flex{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35vh;
+}
+.menu{
+    margin-right: 20px;
+}
+.site-init p{
+    font-size: 20px;
+}
+
+/*MORE ABOUT US*/
+.about-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
